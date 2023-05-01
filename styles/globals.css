@@ -6,13 +6,13 @@
   --rgb: 50, 50, 50;
   --primary-rgb: 65, 134, 255;
 
-  --main: rgb(var(var(--rgb)));
-  --secondary: rgba(var(var(--rgb), 0.6));
+  --main: rgb(var(--rgb));
+  --secondary: rgba(var(--rgb), 0.6);
   --primary: rgb(var(--primary-rgb));
 
-  --border-color: rgba(var(var(--rgb), 0.06));
-  --shadow-color: rgba(var(var(--rgb), 0.1));
-  --shadow-color-hover: rgba(var(var(--rgb), 0.2));
+  --border-color: rgba(var(--rgb), 0.1);
+  --shadow-color: rgba(var(--rgb), 0.2);
+  --shadow-color-hover: rgba(var(--rgb), 0.2);
 
   --bg-main: rgb(252, 252, 253);
   --bg-secondary: rgba(var(--rgb), 0.03);
@@ -24,6 +24,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* border: 0.1px solid red; */
 }
 
 body {
