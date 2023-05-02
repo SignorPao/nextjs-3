@@ -11,8 +11,8 @@
   --primary: rgb(var(--primary-rgb));
 
   --border-color: rgba(var(--rgb), 0.1);
-  --shadow-color: rgba(var(--rgb), 0.2);
-  --shadow-color-hover: rgba(var(--rgb), 0.2);
+  --shadow-color: rgba(var(--rgb), 0.1);
+  --shadow-color-hover: rgba(var(--rgb), 0.3);
 
   --bg-main: rgb(252, 252, 253);
   --bg-secondary: rgba(var(--rgb), 0.03);

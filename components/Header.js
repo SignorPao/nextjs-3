@@ -28,7 +28,7 @@ const Header = () => {
     <header
       style={{
         background: visible || showMenu ? "var(--bg-main)" : "transparent",
-        boxShadow: visible ? "2px 20px 30px var(--shadow-color)" : "none",
+        boxShadow: visible ? "2px 10px 20px var(--shadow-color)" : "none",
       }}
     >
       <nav>

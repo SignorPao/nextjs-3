@@ -64,7 +64,7 @@ header nav .menu_btn {
     background: var(--bg-main);
     display: block;
     width: 100%;
-    box-shadow: 2px 20px 30px var(--shadow-color);
+    box-shadow: 2px 10px 20px var(--shadow-color);
     transition: all ease-in-out 0.3s;
     height: 0px;
     overflow: hidden;
