@@ -28,7 +28,7 @@
 }
 
 #trending .card:hover {
-  box-shadow: 2px 10px 20px var(--shadow-color);
+  box-shadow: 2px 10px 20px var(--shadow-color-hover);
 }
 
 #trending .card .img-container {
