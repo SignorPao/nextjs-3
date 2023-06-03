@@ -185,3 +185,35 @@ export const explores = [
     distance: 1480,
   },
 ];
+
+// testimonials
+export const testimonials = [
+  {
+    id: 1,
+    name: "Hera Cosmetic",
+    avatar:
+      "https://github.com/devat-youtuber/travel-nextjs13beta-images/blob/main/t-member.jpg?raw=true",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui expedita totam quae.",
+  },
+  {
+    id: 2,
+    name: "Hera Cosmetic",
+    avatar:
+      "https://github.com/devat-youtuber/travel-nextjs13beta-images/blob/main/t-member.jpg?raw=true",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui expedita totam quae.",
+  },
+  {
+    id: 3,
+    name: "Hera Cosmetic",
+    avatar:
+      "https://github.com/devat-youtuber/travel-nextjs13beta-images/blob/main/t-member.jpg?raw=true",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui expedita totam quae.",
+  },
+  {
+    id: 4,
+    name: "Hera Cosmetic",
+    avatar:
+      "https://github.com/devat-youtuber/travel-nextjs13beta-images/blob/main/t-member.jpg?raw=true",
+    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui expedita totam quae.",
+  },
+];
