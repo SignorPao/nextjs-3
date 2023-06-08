@@ -1,15 +1,28 @@
 "use client";
+
 import React, { useState, useEffect } from "react";
+
 import "../styles/header.css";
+
 import { categories } from "../data";
 
 const Header = () => {
   const [visible, setVisible] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
+  const [id, setId] = useState("home");
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
-    console.log({ scrolled });
+    const sections = document.querySelectorAll("section");
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      if (window.scrollY > sectionTop - 150) {
+        setId(section.getAttribute("id"));
+      }
+    });
+
+    // console.log({ scrolled });
     if (scrolled > 0) {
       setVisible(true);
     } else {
@@ -18,6 +31,8 @@ const Header = () => {
   };
 
   useEffect(() => {
+    toggleVisible();
+
     window.addEventListener("scroll", toggleVisible);
     return () => {
       window.removeEventListener("scroll", toggleVisible);
@@ -54,7 +69,10 @@ const Header = () => {
         >
           {categories.map((category) => (
             <li key={category.name}>
-              <a href={category.link} className="">
+              <a
+                href={category.link}
+                className={id === category.name ? "active" : ""}
+              >
                 {category.name}
               </a>
             </li>

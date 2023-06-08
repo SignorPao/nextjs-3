@@ -86,7 +86,7 @@ const Footer = () => {
       </div>
 
       <span className='copyright'>
-        2023 signorPao - All copyright reserved
+        2023 @signorPao - All copyright reserved
       </span>
     </footer>
   )
