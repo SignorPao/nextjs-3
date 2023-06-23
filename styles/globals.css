@@ -4,7 +4,7 @@
   --max-width-sm: 1000px;
 
   --rgb: 50, 50, 50;
-  --primary-rgb: 65, 134, 255;
+  /* --primary-rgb: 65, 134, 255; */
 
   --main: rgb(var(--rgb));
   --secondary: rgba(var(--rgb), 0.6);
